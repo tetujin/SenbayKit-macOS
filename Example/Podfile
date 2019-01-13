@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SenbayKit-macOS_Example' do
+  pod 'SenbayKit-macOS', :path => '../'
+
+  target 'SenbayKit-macOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
