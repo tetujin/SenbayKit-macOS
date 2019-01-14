@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SenbayKit-macOS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Senbay: A Platform for Instantly Capturing, Integrating, and Restreaming of Synchronized Multiple Sensor-data Streams'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ The spread of smartphones allows us to freely capture video and diverse hardware
   s.homepage         = 'https://github.com/tetujin/SenbayKit-macOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache2', :file => 'LICENSE' }
-  s.author           = { 'tetujin' => 'tetujin@ht.sfc.keio.ac.jp' }
+  s.author           = { 'Yuuki Nishiyama' => 'yuuki.nishiyama@oulu.fi' }
   s.source           = { :git => 'https://github.com/tetujin/SenbayKit-macOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
