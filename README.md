@@ -56,11 +56,43 @@ reader.delegate = self;
 reader.start()
 ```
 
-4. Receive detected and decoded data via SenbayReaderDelegate 
+4. Receive detected and decoded data via SenbayReaderDelegate
 ```swift
 func didDetectQRcode(_ qrcode: String)
 func didDecodeQRcode(_ senbayData: [String : Any])
 func didChangeCaptureArea(_ rect: CGRect) {
+```
+
+5. (Option) Set the capture area
+
+You can adjust the capture area of SenbayReader by `setCaptureAreaWith(_ rect:CGRect)` method on SenbayReader.
+```swift
+func setCaptureAreaWith(_ rect: CGRect)
+```
+Moreover, SenbayReader has `adjustCaptureArea()` method. Just by calling this method, SenbayReader automatically detect a QRcode on your target screen, and adjust the capture area depend on the QRcode size and position.
+
+6. (Option) Set configuration of SenbayReader
+
+`SenbayReaderConfig` class manages the configuration of SenbayReader.
+
+```swift
+// EXAMPLE-1
+let CONFIG = SenbayReaderConfig{config in
+    config.frequency = 30
+    config.captureAreaX = 0
+    config.captureAreaY = 0
+    config.captureAreaWidth  = 200
+    config.captureAreaHeight = 200
+}
+let reader = SenbayReader(config: CONFIG)
+reader.start()
+```
+
+```swift
+// EXAMPLE-2
+let reader = SenbayReader()
+reader.config.frequency = 30
+reader.start()
 ```
 
 ## Author and Contributors
@@ -83,7 +115,7 @@ series = {MobileHCI '18},
 year = {2018},
 location = {Barcelona, Spain},
 publisher = {ACM},
-} 
+}
 ```
 
 ## License

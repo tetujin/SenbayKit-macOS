@@ -11,8 +11,8 @@ import SenbayKit_macOS
 
 class ViewController: NSViewController, SenbayReaderDelegate {
 
-    let reader = SenbayReader()
     let config = SenbayReaderConfig()
+    let reader = SenbayReader()
     
     var captureAreaWindow:NSWindow? = nil
     var captureAreaWindowController:NSWindowController? = nil
