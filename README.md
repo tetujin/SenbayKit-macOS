@@ -1,6 +1,5 @@
 # SenbayKit-macOS
 
-[![CI Status](https://img.shields.io/travis/tetujin/SenbayKit-macOS.svg?style=flat)](https://travis-ci.org/tetujin/SenbayKit-macOS)
 [![Version](https://img.shields.io/cocoapods/v/SenbayKit-macOS.svg?style=flat)](https://cocoapods.org/pods/SenbayKit-macOS)
 [![License](https://img.shields.io/cocoapods/l/SenbayKit-macOS.svg?style=flat)](https://cocoapods.org/pods/SenbayKit-macOS)
 [![Platform](https://img.shields.io/cocoapods/p/SenbayKit-macOS.svg?style=flat)](https://cocoapods.org/pods/SenbayKit-macOS)
