@@ -1,5 +1,5 @@
 import XCTest
-import SenbayKit-macOS
+import SenbayKit_macOS
 
 class Tests: XCTestCase {
     
