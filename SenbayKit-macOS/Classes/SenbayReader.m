@@ -20,7 +20,7 @@
         _captureAreaHeight = 256;
         _frequency     = 60;
         _displayId     = kCGDirectMainDisplay;
-        _baseNumber    = 122;
+        _baseNumber    = 121;
         _skipDuplicateData = YES;
         _debug         = NO;
         _encryptionKey = nil;

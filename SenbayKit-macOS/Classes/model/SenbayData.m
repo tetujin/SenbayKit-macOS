@@ -19,7 +19,7 @@
 }
 
 - (instancetype)initWithString:(NSString *)content{
-    return [self initWithString:content baseX:122];
+    return [self initWithString:content baseX:121];
 }
 
 - (instancetype)initWithString:(NSString *)content baseX:(int)baseNumber{
